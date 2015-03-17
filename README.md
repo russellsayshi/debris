@@ -15,6 +15,23 @@ The debris command takes no arguments, and presents the user interface where the
 
 Pressing `h` or `?` will bring up the help menu.
 
+The contents (as of version 1.0) of the help menu will look like this:
+
+```
+Help: [Q]uit
+UP/DOWN: Moves
+h/?: Help (this page)
+q: Quit
+RIGHT: select directory
+r/Enter: Restore
+l: Reload file list
+LEFT: Up directory (if applicable)
+i: File information
+p: Display path to trash
+e: Empty trash
+c: Open config
+```
+
 Note that while the user can browse the contents of subdirectories, the user can't restore them individually, as the user can only restore top-level items. This may change in the future.
 
 ###rmt
