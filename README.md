@@ -60,3 +60,7 @@ The value of ConfirmPrompt should be either 0 or 1, and the colors should be two
 Pressing `c` while in the Debris application will bring up the config file in the user's default editor.
 
 Note that the config will not reload after exiting, and you must close and re-open the application to see the effect.
+
+##Screenshots
+![Alt text](http://i.imgur.com/XjEg9yr.png "Default screen")
+![Alt text](http://i.imgur.com/SRslncE.png "Viewing file metadata")
