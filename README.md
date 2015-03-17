@@ -62,5 +62,7 @@ Pressing `c` while in the Debris application will bring up the config file in th
 Note that the config will not reload after exiting, and you must close and re-open the application to see the effect.
 
 ##Screenshots
+Normal operation:
 ![Alt text](http://i.imgur.com/XjEg9yr.png "Default screen")
+Viewing file metadata:
 ![Alt text](http://i.imgur.com/SRslncE.png "Viewing file metadata")
