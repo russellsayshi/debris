@@ -63,6 +63,9 @@ Note that the config will not reload after exiting, and you must close and re-op
 
 ##Screenshots
 Normal operation:
+
 ![Alt text](http://i.imgur.com/XjEg9yr.png "Default screen")
+
 Viewing file metadata:
+
 ![Alt text](http://i.imgur.com/SRslncE.png "Viewing file metadata")
