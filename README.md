@@ -71,4 +71,4 @@ Viewing file metadata:
 ![Alt text](http://i.imgur.com/SRslncE.png "Viewing file metadata")
 
 ##Installation
-To install Debris, simply clone the repo and then run `compile.sh`. It will generate two files, `debris` and `rmt`, and you can symlink or copy them into `/usr/bin`, or whereever you please in your path.
+To install Debris, simply clone the repo and then run `compile.sh`. It will generate two files, `debris` and `rmt`, and you can symlink or copy them into `/usr/bin`, or whereever else in your path.
