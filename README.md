@@ -15,7 +15,7 @@ The debris command takes no arguments, and presents the user interface where the
 
 Pressing `h` or `?` will bring up the help menu.
 
-Note that while you can browse the contents of subdirectories, you can't restore them individually, as you can only restore top-level items. This may change in the future.
+Note that while the user can browse the contents of subdirectories, the user can't restore them individually, as the user can only restore top-level items. This may change in the future.
 
 ###rmt
 
@@ -25,8 +25,21 @@ Its usage is fairly simple: `rmt <filenames...>`
 
 Specifying `rmt -h` or `rmt --help` will display the help.
 
-##Configuring
+##Configuration
 
 The Debris UI is somewhat configurable, with the configuration file located at `~/.debris.config`.
 
-A sample config will look like this:
+The default config (created upon first run) will look like this:
+```
+[Debris Config]
+ConfirmPrompt: 1
+TrashColor: CYAN BLACK
+SelectionColor: BLUE BLACK
+DirectoriesColor: YELLOW BLACK
+#Colors can be BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE
+```
+The value of ConfirmPrompt should be either 0 or 1, and the colors should be two values, the first the foreground color and the second the background color.
+
+Pressing `c` while in the Debris application will bring up the config file in the user's default editor.
+
+Note that the config will not reload after exiting, and you must close and re-open the application to see the effect.
